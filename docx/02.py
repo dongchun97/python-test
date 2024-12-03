@@ -42,7 +42,7 @@ def process_document(doc):
             # 添加回答段落
             new_para = doc.add_paragraph(answer)
             new_para.style = indent_style
-
+ 
 if __name__ == "__main__":
     input_doc = './docx/index.docx'
     output_doc = './docx/out/index_updated.docx'
